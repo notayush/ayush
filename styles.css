@@ -1,0 +1,70 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.text-center{
+  font-weight: 900;
+  font-size: 500%;
+  text-align: center;
+  margin-top: 4rem;
+
+  line-height: 1.2;
+}
+
+
+ayush{
+  font-weight: 8vw;
+  font-size: 10vw;
+  color: blanchedalmond;
+  
+}
+
+
+.typingText{
+  padding-left: 2vw;
+  font-family:  monospace;
+  font-weight: 300;
+  font-size: 20px;
+  color: white;
+  
+  display: flex;
+ 
+  
+  min-height: 100vh;
+  background: black;
+
+  @media(orientation: portrait){
+    font-size: 30px;
+    padding-top: -10px;
+  }
+}
+
+html{
+  scroll-behavior:auto;
+  
+}
+
+
+
+.p{
+  margin: 0%;
+  font-weight: 400;
+  font-size: 4vw;
+  text-align: center;
+  color: white;
+  background-color: black;
+  @media(orientation: portrait){
+    font-size: 70px;
+    padding: 3%;
+  }
+}
+.imgZoom{
+  overflow: hidden;
+  transition: all ease 2s;
+}
+.imgZoom:hover{
+   scale: 1.2;
+}
+
+
+
